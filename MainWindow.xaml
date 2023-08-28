@@ -7,11 +7,11 @@
 	Title="MainWindow"
 	Width="640" Height="480">
 	<Window.Resources>
-		<local:CubeToGeometryModelConverter x:Key="Converter">
-			<local:CubeToGeometryModelConverter.Material>
+		<local:PolyhedronesToGeometryModelsConverter x:Key="Converter" >
+			<local:PolyhedronesToGeometryModelsConverter.Material>
 				<DiffuseMaterial Brush="Yellow"></DiffuseMaterial>
-			</local:CubeToGeometryModelConverter.Material>
-		</local:CubeToGeometryModelConverter>
+			</local:PolyhedronesToGeometryModelsConverter.Material>
+		</local:PolyhedronesToGeometryModelsConverter>
 	</Window.Resources>
 
 	<Grid x:Name="LayoutRoot">	
@@ -32,7 +32,7 @@
               			<Model3DGroup x:Name="Scene">
                 			<Model3DGroup.Children>
                   				<DirectionalLight Color="#FFFFFFFF" Direction="3,-4,5" />
-									<Model3DGroup x:Name="Polyhedrones" Children="{Binding Cube, Converter={StaticResource Converter}}">
+									<Model3DGroup x:Name="Polyhedrones" Children="{Binding Polyhedrones, Converter={StaticResource Converter}}">
 																												
 									</Model3DGroup>                  											
 							</Model3DGroup.Children>

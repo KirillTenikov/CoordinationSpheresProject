@@ -56,7 +56,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Converters\CubeToGeometryModelConverter.cs" />
+    <Compile Include="Converters\PolyhedronesToGeometryModelsConverter.cs" />
+    <Compile Include="Converters\CubeToModel.cs" />
     <Compile Include="Polyhedrones\Matrix3d.cs" />
     <Compile Include="Polyhedrones\Point3d.cs" />
     <Compile Include="Polyhedrones\Polyhedron.cs" />

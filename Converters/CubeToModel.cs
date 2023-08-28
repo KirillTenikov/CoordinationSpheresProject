@@ -6,29 +6,17 @@ using System;
 
 namespace CoordinationSpheresProject.Converters
 {
-	public class CubeToGeometryModelConverter:IValueConverter 
+	static public class CubeToModel
 	{
-		public Material Material{get;set;}
-		
-		public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
+		static public GeometryModel3D Convert(Cube cube, Material material)
 		{
-			Cube cube=(Cube)value;
 			MeshGeometry3D mesh=new MeshGeometry3D();
 			CalcMeshPositions(mesh, cube);
-			CalcMeshTriangleIndexes(mesh);	
-			GeometryModel3D model=new GeometryModel3D(mesh, Material);
-			Model3DCollection collection=new Model3DCollection();
-			collection.Add(model);
-			return collection;
-			
+			CalcMeshTriangleIndexes(mesh);
+			return new GeometryModel3D(mesh, material);
 		}
 		
-		public object ConvertBack(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
-		{
-			throw new NotImplementedException();  		
-		}
-		
-		private void CalcMeshPositions(MeshGeometry3D mesh, Cube cube)
+		static private void CalcMeshPositions(MeshGeometry3D mesh, Cube cube)
 		{
 			mesh.Positions.Clear();
 			for(int z=-1;z<=1;z+=2)
@@ -40,7 +28,7 @@ namespace CoordinationSpheresProject.Converters
 													cube.Center.Z+z*cube.EdgeLength/2));
 					
 		}
-		private void CalcMeshTriangleIndexes(MeshGeometry3D mesh)
+		static private void CalcMeshTriangleIndexes(MeshGeometry3D mesh)
 		{
 			mesh.TriangleIndices=new Int32Collection(new int[]{
 				0,2,1, 1,2,3, 
@@ -51,6 +39,5 @@ namespace CoordinationSpheresProject.Converters
 				2,6,3, 3,6,7});
 			
 		}
-		
 	}
 }
