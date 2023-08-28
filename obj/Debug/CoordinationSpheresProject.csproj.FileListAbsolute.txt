@@ -1,0 +1,11 @@
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\bin\Debug\CoordinationSpheresProject.exe
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\bin\Debug\CoordinationSpheresProject.pdb
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\MainWindow.baml
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\MainWindow.g.cs
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\App.g.cs
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\CoordinationSpheresProject_MarkupCompile.cache
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\CoordinationSpheresProject.g.resources
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\CoordinationSpheresProject.exe
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\CoordinationSpheresProject.pdb
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\CoordinationSpheresProject_MarkupCompile.lref
+C:\Users\Кирилл\Documents\Expression\Blend 4\Projects\CoordinationSpheresProject\CoordinationSpheresProject\obj\Debug\GeneratedInternalTypeHelper.g.cs
